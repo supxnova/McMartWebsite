@@ -1,0 +1,24 @@
+.image-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image-image {
+  width: 1200px;
+  height: 409px;
+  align-self: flex-end;
+  object-fit: contain;
+}
+@media(max-width: 991px) {
+  .image-image {
+    width: 991px;
+    margin-bottom: var(--dl-space-space-tripleunit);
+  }
+}
+@media(max-width: 479px) {
+  .image-image {
+    width: 100%;
+    height: 193px;
+  }
+}
