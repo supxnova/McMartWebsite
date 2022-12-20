@@ -224,13 +224,17 @@
   align-items: center;
   flex-direction: column;
 }
+.portfolios-navlink3 {
+  display: contents;
+}
 .portfolios-image3 {
   width: 273px;
   height: 289px;
   object-fit: cover;
   margin-left: 342px;
+  text-decoration: none;
 }
-.portfolios-text3 {
+.portfolios-navlink4 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   margin-top: 0px;
@@ -239,6 +243,7 @@
   margin-left: 341px;
   margin-right: 0px;
   margin-bottom: 0px;
+  text-decoration: none;
 }
 .portfolios-features {
   width: 100%;
@@ -254,7 +259,7 @@
   padding-bottom: var(--dl-space-space-tenunits);
   justify-content: center;
 }
-.portfolios-text4 {
+.portfolios-text3 {
   top: 137px;
   left: 410px;
   color: rgb(255, 255, 255);
@@ -270,7 +275,7 @@
   align-self: center;
   object-fit: cover;
 }
-.portfolios-text7 {
+.portfolios-text6 {
   color: #ffffff;
   font-size: 2rem;
   align-self: center;
