@@ -197,14 +197,14 @@
   height: 289px;
   object-fit: cover;
 }
-.buttermoth-text2 {
+.buttermoth-text02 {
   color: rgb(255, 255, 255);
   font-size: 30px;
   font-family: Roboto;
   font-weight: 700;
   margin-right: 0px;
 }
-.buttermoth-text3 {
+.buttermoth-text03 {
   color: rgb(255, 255, 255);
   font-size: 100px;
   align-self: center;
@@ -285,7 +285,7 @@
   width: 100%;
   height: 100%;
 }
-.buttermoth-text4 {
+.buttermoth-text04 {
   color: rgb(255, 255, 255);
   font-size: 100px;
   margin-top: var(--dl-space-space-tenunits);
@@ -307,6 +307,8 @@
   height: 549px;
   align-self: center;
   object-fit: cover;
+  margin-left: 50px;
+  margin-right: 52px;
 }
 .buttermoth-container12 {
   width: 652px;
@@ -367,6 +369,61 @@
   margin-left: 50px;
   margin-right: 52px;
 }
+.buttermoth-text05 {
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  margin-top: var(--dl-space-space-tenunits);
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-tenunits);
+  text-transform: uppercase;
+}
+.buttermoth-container16 {
+  width: 652px;
+  height: 611px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttermoth-image12 {
+  width: 519px;
+  height: 551px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-right: 52px;
+}
+.buttermoth-container17 {
+  width: 652px;
+  height: 611px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttermoth-image13 {
+  width: 519px;
+  height: 551px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-right: 52px;
+}
+.buttermoth-container18 {
+  width: 652px;
+  height: 611px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttermoth-image14 {
+  width: 519px;
+  height: 551px;
+  align-self: center;
+  object-fit: cover;
+  margin-left: 50px;
+  margin-right: 52px;
+}
 .buttermoth-features {
   width: 100%;
   height: 402px;
@@ -382,7 +439,7 @@
   padding-bottom: var(--dl-space-space-tenunits);
   justify-content: center;
 }
-.buttermoth-text5 {
+.buttermoth-text06 {
   top: 137px;
   left: 410px;
   color: rgb(255, 255, 255);
@@ -392,13 +449,13 @@
   font-family: Nunito;
   font-weight: 700;
 }
-.buttermoth-image12 {
+.buttermoth-image15 {
   width: 324px;
   height: 209px;
   align-self: center;
   object-fit: cover;
 }
-.buttermoth-text8 {
+.buttermoth-text09 {
   color: #ffffff;
   font-size: 2rem;
   align-self: center;
@@ -461,7 +518,7 @@
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .buttermoth-text3 {
+  .buttermoth-text03 {
     font-size: 80px;
   }
   .buttermoth-container06 {
@@ -474,7 +531,7 @@
   }
   .buttermoth-container07 {
     width: 100%;
-    height: 405px;
+    height: 352px;
   }
   .buttermoth-image04 {
     width: 276px;
@@ -505,28 +562,72 @@
     margin-right: 0px;
   }
   .buttermoth-image07 {
-    width: 479px;
-    height: 459px;
-    margin-left: 0px;
+    width: 424px;
+    height: 388px;
+    margin-left: var(--dl-space-space-tripleunit);
     margin-right: 0px;
   }
   .buttermoth-container12 {
     width: 100%;
   }
   .buttermoth-image08 {
-    width: 479px;
-    height: 459px;
+    width: 426px;
+    height: 410px;
+    margin-left: 20px;
+  }
+  .buttermoth-container13 {
+    width: 100%;
+    height: 591px;
   }
   .buttermoth-image09 {
-    width: 479px;
-    height: 459px;
+    width: 422px;
+    height: 535px;
+  }
+  .buttermoth-container14 {
+    width: 100%;
+    height: 584px;
   }
   .buttermoth-image10 {
     width: 479px;
     height: 459px;
   }
+  .buttermoth-container15 {
+    width: 100%;
+    height: 611px;
+  }
   .buttermoth-image11 {
-    width: 479px;
-    height: 459px;
+    width: 408px;
+    height: 452px;
+  }
+  .buttermoth-text05 {
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .buttermoth-container16 {
+    width: 100%;
+    height: 511px;
+  }
+  .buttermoth-image12 {
+    width: 261px;
+    height: 414px;
+  }
+  .buttermoth-container17 {
+    width: 100%;
+    height: 511px;
+  }
+  .buttermoth-image13 {
+    width: 301px;
+    height: 447px;
+  }
+  .buttermoth-container18 {
+    width: 100%;
+    height: 511px;
+  }
+  .buttermoth-image14 {
+    width: 366px;
+    height: 417px;
   }
 }
