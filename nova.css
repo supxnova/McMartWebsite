@@ -218,8 +218,8 @@
   height: 425px;
   display: flex;
   position: relative;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .nova-image03 {
   width: 491px;
@@ -227,15 +227,18 @@
   align-self: center;
   object-fit: cover;
   margin-left: 70px;
+  margin-right: 70px;
 }
 .nova-image04 {
-  top: 12px;
-  left: 645px;
+  top: 6px;
+  left: 0px;
   width: 467px;
   height: 389px;
   position: absolute;
   align-self: flex-start;
   object-fit: cover;
+  margin-left: 87px;
+  margin-right: 87px;
 }
 .nova-image05 {
   top: 86px;
@@ -248,7 +251,7 @@
 }
 .nova-container07 {
   width: 1889px;
-  height: 436px;
+  height: 466px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -264,12 +267,16 @@
 }
 .nova-image07 {
   top: 25px;
-  left: 703px;
+  left: 0px;
+  right: 0px;
   width: 397px;
   height: 387px;
+  margin: auto;
   position: absolute;
   align-self: center;
   object-fit: cover;
+  margin-left: 89px;
+  margin-right: 99px;
 }
 .nova-image08 {
   top: 95px;
@@ -282,7 +289,7 @@
 }
 .nova-container08 {
   width: 1889px;
-  height: 308px;
+  height: 319px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -290,25 +297,28 @@
 }
 .nova-image09 {
   top: 18px;
-  left: 58px;
+  left: 0px;
   width: 494px;
   height: 261px;
   position: absolute;
   object-fit: cover;
+  margin-left: 70px;
 }
 .nova-image10 {
-  top: 14px;
-  left: 671px;
+  top: 16px;
+  right: 71px;
   width: 494px;
   height: 261px;
   position: absolute;
   object-fit: cover;
 }
 .nova-image11 {
-  top: 16px;
-  right: 71px;
+  top: 14px;
+  left: 0px;
+  right: 0px;
   width: 494px;
   height: 261px;
+  margin: auto;
   position: absolute;
   object-fit: cover;
 }
@@ -334,6 +344,7 @@
   height: 434px;
   align-self: center;
   object-fit: cover;
+  margin-left: 70px;
   margin-right: 70px;
 }
 .nova-image13 {
@@ -425,9 +436,17 @@
     margin-right: 69px;
   }
   .nova-image07 {
+    top: 35px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
+  }
+  .nova-image08 {
+    top: 154px;
+    right: 51px;
   }
   .nova-container08 {
     width: 100%;
@@ -436,9 +455,17 @@
   .nova-image09 {
     margin-left: 0px;
   }
+  .nova-image10 {
+    top: 16px;
+    right: 0px;
+    margin-left: 1px;
+    margin-right: var(--dl-space-space-tripleunit);
+  }
   .nova-image11 {
-    margin-left: 55px;
-    margin-right: 44px;
+    top: 16px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
   }
   .nova-container09 {
     width: 100%;
@@ -471,8 +498,11 @@
     position: absolute;
   }
   .nova-image04 {
-    top: -48px;
-    left: 32px;
+    top: 850px;
+    left: 0px;
+    right: 0px;
+    bottom: 87px;
+    margin: auto;
     position: absolute;
   }
   .nova-image05 {
@@ -488,18 +518,27 @@
     padding-left: 0px;
   }
   .nova-image06 {
-    top: 129px;
-    left: 8px;
+    top: 1000px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
     position: absolute;
   }
   .nova-image07 {
     top: 542px;
-    left: 96px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
     position: absolute;
   }
   .nova-image08 {
-    left: -15px;
-    bottom: 135px;
+    top: -700px;
+    left: 0px;
+    right: 0px;
+    width: 537px;
+    bottom: 198px;
+    height: 276px;
+    margin: auto;
     position: absolute;
   }
   .nova-container08 {
@@ -509,30 +548,61 @@
     flex-wrap: wrap;
   }
   .nova-image09 {
-    top: -14px;
-    left: 49px;
+    top: -900px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
     position: absolute;
   }
   .nova-image10 {
-    top: 385px;
-    left: 20px;
+    left: 0px;
+    right: 0px;
+    bottom: 92px;
+    margin: auto;
     position: absolute;
   }
   .nova-image11 {
-    left: 8px;
-    bottom: 92px;
+    top: 750px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
     position: absolute;
   }
   .nova-container09 {
     width: 695px;
     height: 1909px;
+    position: relative;
     flex-wrap: wrap;
   }
   .nova-image12 {
-    margin-left: 97px;
+    top: 159px;
+    left: 0px;
+    right: 0px;
+    width: 545px;
+    height: 442px;
+    margin: auto;
+    position: absolute;
+  }
+  .nova-image13 {
+    top: 743px;
+    left: 0px;
+    right: 0px;
+    width: 548px;
+    height: 426px;
+    margin: auto;
+    position: absolute;
   }
   .nova-image14 {
-    margin-left: 114px;
+    left: 0px;
+    right: 0px;
+    width: 519px;
+    bottom: 115px;
+    height: 481px;
+    margin: auto;
+    position: absolute;
+    align-self: center;
   }
 }
 @media(max-width: 991px) {
@@ -543,66 +613,56 @@
   }
   .nova-container06 {
     width: 566px;
-    height: 1234px;
+    height: 1181px;
     position: relative;
     flex-wrap: wrap;
   }
   .nova-image03 {
-    top: 447px;
-    left: 21px;
-    position: absolute;
+    margin: 0px;
+    position: static;
   }
   .nova-image04 {
-    top: -61px;
-    left: 30px;
-    position: absolute;
+    margin: auto;
+    position: static;
   }
   .nova-image05 {
-    left: 0px;
-    bottom: 129px;
-    position: absolute;
+    margin: 20px;
+    position: static;
   }
   .nova-container07 {
     width: 582px;
-    height: 1075px;
+    height: 1237px;
     position: relative;
     flex-wrap: wrap;
   }
   .nova-image06 {
-    top: 6px;
-    right: -38px;
-    position: absolute;
+    margin: auto;
+    position: static;
   }
   .nova-image07 {
-    top: 354px;
-    left: 102px;
-    position: absolute;
+    margin: auto;
+    position: static;
   }
   .nova-image08 {
-    left: -25px;
-    bottom: -8px;
-    position: absolute;
+    position: static;
   }
   .nova-container08 {
     width: 642px;
-    height: 1109px;
+    height: 1358px;
     position: relative;
     flex-wrap: wrap;
   }
   .nova-image09 {
-    top: 108px;
-    right: 9px;
-    position: absolute;
+    margin: auto;
+    position: static;
   }
   .nova-image10 {
-    top: 466px;
-    left: 1px;
-    position: absolute;
+    margin: auto;
+    position: static;
   }
   .nova-image11 {
-    right: 37px;
-    bottom: 54px;
-    position: absolute;
+    margin: auto;
+    position: static;
   }
   .nova-container09 {
     width: 677px;
@@ -610,13 +670,21 @@
     flex-wrap: wrap;
   }
   .nova-image12 {
-    margin-left: 109px;
+    width: 495px;
+    height: 407px;
+    margin: auto;
+    position: static;
   }
   .nova-image13 {
     width: 579px;
+    margin: auto;
+    position: static;
   }
   .nova-image14 {
-    margin-left: 98px;
+    width: 468px;
+    height: 440px;
+    margin: auto;
+    position: static;
   }
 }
 @media(max-width: 767px) {
@@ -629,8 +697,19 @@
   }
   .nova-container06 {
     width: 595px;
-    height: 1066px;
+    height: 1171px;
     flex-wrap: wrap;
+  }
+  .nova-image03 {
+    position: static;
+  }
+  .nova-image04 {
+    margin: auto;
+    position: static;
+  }
+  .nova-image05 {
+    margin: auto;
+    position: static;
   }
   .nova-container07 {
     width: 631px;
@@ -639,40 +718,35 @@
     flex-wrap: wrap;
   }
   .nova-image06 {
-    top: 28px;
-    left: 6px;
-    position: absolute;
+    margin: auto;
+    position: static;
   }
   .nova-image07 {
-    top: 374px;
-    left: 112px;
-    position: absolute;
+    position: static;
   }
   .nova-image08 {
-    left: 2px;
-    bottom: 86px;
-    position: absolute;
+    position: static;
   }
   .nova-container08 {
     width: 648px;
-    height: 1069px;
+    height: 1083px;
     position: relative;
     flex-wrap: wrap;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .nova-image09 {
-    left: 80px;
-    bottom: 10px;
-    position: absolute;
+    top: 316px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: static;
   }
   .nova-image10 {
-    top: 27px;
-    left: 15px;
-    position: absolute;
+    position: static;
   }
   .nova-image11 {
-    top: 395px;
-    left: 18px;
-    position: absolute;
+    position: static;
   }
   .nova-container09 {
     width: 594px;
@@ -682,6 +756,16 @@
   .nova-image12 {
     width: 407px;
     height: 301px;
+    margin: auto;
+    position: static;
+  }
+  .nova-image13 {
+    margin: auto;
+    position: static;
+  }
+  .nova-image14 {
+    margin: auto;
+    position: static;
   }
 }
 @media(max-width: 479px) {
@@ -692,85 +776,79 @@
   }
   .nova-container06 {
     width: 100%;
-    height: 1021px;
+    height: 1089px;
     position: relative;
     flex-wrap: wrap;
   }
   .nova-image03 {
-    top: 56px;
-    left: 28px;
-    width: 331px;
-    height: 231px;
-    position: absolute;
+    width: 395px;
+    height: 340px;
+    position: static;
   }
   .nova-image04 {
-    top: 313px;
-    left: 47px;
-    width: 362px;
-    height: 287px;
-    position: absolute;
+    top: 476px;
+    left: 0px;
+    right: 0px;
+    width: 406px;
+    height: 333px;
+    position: static;
     align-self: center;
   }
   .nova-image05 {
-    left: 30px;
     width: 355px;
-    bottom: 131px;
     height: 215px;
-    position: absolute;
+    position: static;
   }
   .nova-container07 {
     width: 100%;
-    height: 926px;
+    height: 1092px;
     position: relative;
     flex-wrap: wrap;
     margin-bottom: 0px;
   }
   .nova-image06 {
-    top: 43px;
-    left: 12px;
-    width: 341px;
-    height: 187px;
-    position: absolute;
+    width: 383px;
+    height: 243px;
+    position: static;
   }
   .nova-image07 {
-    top: 322px;
-    left: 92px;
-    width: 282px;
-    height: 279px;
-    position: absolute;
+    width: 349px;
+    height: 372px;
+    position: static;
   }
   .nova-image08 {
-    left: 15px;
-    width: 326px;
-    bottom: 52px;
-    height: 182px;
-    position: absolute;
+    width: 380px;
+    height: 233px;
+    position: static;
   }
   .nova-container08 {
     width: 100%;
-    height: 884px;
+    height: 874px;
     position: relative;
     flex-wrap: wrap;
   }
   .nova-image09 {
-    left: 55px;
-    width: 369px;
-    bottom: 90px;
-    height: 213px;
-    position: absolute;
+    top: -218px;
+    left: 0px;
+    right: 0px;
+    width: 387px;
+    height: 237px;
+    position: static;
+    margin-left: 47px;
   }
   .nova-image10 {
-    top: 286px;
-    left: -18px;
-    width: 385px;
-    height: 228px;
-    position: absolute;
+    width: 403px;
+    height: 219px;
+    margin: auto;
+    position: static;
   }
   .nova-image11 {
-    width: 369px;
-    height: 217px;
-    margin-left: 59px;
-    margin-right: 0px;
+    top: 79px;
+    left: 0px;
+    right: 0px;
+    width: 385px;
+    height: 228px;
+    position: static;
   }
   .nova-container09 {
     width: 100%;
@@ -779,10 +857,11 @@
     flex-wrap: wrap;
   }
   .nova-image12 {
-    top: 7px;
-    left: -37px;
-    width: 330px;
-    height: 260px;
+    top: -4px;
+    right: 1px;
+    width: 403px;
+    height: 283px;
+    margin: auto;
     position: absolute;
   }
   .nova-image13 {
