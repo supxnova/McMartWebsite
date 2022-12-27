@@ -197,14 +197,14 @@
   height: 289px;
   object-fit: cover;
 }
-.nova-text2 {
+.nova-text02 {
   color: #ffffff;
   font-size: 30px;
   font-family: Roboto;
   font-weight: 700;
   margin-right: 0px;
 }
-.nova-text3 {
+.nova-text03 {
   color: #ffffff;
   font-size: 100px;
   align-self: center;
@@ -313,7 +313,7 @@
   position: absolute;
   object-fit: cover;
 }
-.nova-text4 {
+.nova-text04 {
   color: rgb(255, 255, 255);
   font-size: 100px;
   margin-top: var(--dl-space-space-tenunits);
@@ -354,6 +354,31 @@
   margin-left: 70px;
   margin-right: 70px;
 }
+.nova-text05 {
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  margin-top: var(--dl-space-space-tenunits);
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-tenunits);
+  text-transform: uppercase;
+}
+.nova-text06 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  margin-top: var(--dl-space-space-tenunits);
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-tenunits);
+  text-transform: uppercase;
+}
+.nova-text07 {
+  margin-top: var(--dl-space-space-tenunits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-tenunits);
+}
 .nova-features {
   width: 100%;
   height: 402px;
@@ -368,7 +393,7 @@
   padding-bottom: var(--dl-space-space-tenunits);
   justify-content: center;
 }
-.nova-text5 {
+.nova-text11 {
   top: 137px;
   left: 410px;
   color: rgb(255, 255, 255);
@@ -384,7 +409,7 @@
   align-self: center;
   object-fit: cover;
 }
-.nova-text8 {
+.nova-text14 {
   color: #ffffff;
   font-size: 2rem;
   align-self: center;
@@ -473,6 +498,9 @@
   .nova-image14 {
     width: 442px;
     height: 336px;
+  }
+  .nova-text06 {
+    font-size: 30px;
   }
 }
 @media(max-width: 1200px) {
@@ -593,6 +621,9 @@
     margin: auto;
     position: absolute;
     align-self: center;
+  }
+  .nova-text06 {
+    font-size: 25px;
   }
 }
 @media(max-width: 991px) {
@@ -867,6 +898,29 @@
     width: 362px;
     height: 327px;
     position: absolute;
+  }
+  .nova-text05 {
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .nova-text06 {
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .nova-text07 {
+    font-size: 20px;
+  }
+  .nova-text08 {
+    font-size: 20px;
+  }
+  .nova-text09 {
+    font-size: 20px;
   }
   .nova-features {
     margin-bottom: 75px;
