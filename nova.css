@@ -260,30 +260,21 @@
 .nova-image06 {
   width: 494px;
   height: 261px;
+  margin: auto;
   align-self: center;
   object-fit: cover;
-  margin-left: 70px;
-  margin-right: 70px;
 }
 .nova-image07 {
-  top: 25px;
-  left: 0px;
-  right: 0px;
   width: 397px;
   height: 387px;
   margin: auto;
-  position: absolute;
   align-self: center;
   object-fit: cover;
-  margin-left: 89px;
-  margin-right: 99px;
 }
 .nova-image08 {
-  top: 95px;
-  right: 73px;
   width: 494px;
   height: 261px;
-  position: absolute;
+  margin: auto;
   align-self: center;
   object-fit: cover;
 }
@@ -432,8 +423,7 @@
     height: 555px;
   }
   .nova-image06 {
-    margin-left: 56px;
-    margin-right: 69px;
+    margin: auto;
   }
   .nova-image07 {
     top: 35px;
