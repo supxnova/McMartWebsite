@@ -197,14 +197,14 @@
   height: 289px;
   object-fit: cover;
 }
-.nova-text02 {
+.nova-text {
   color: #ffffff;
   font-size: 30px;
   font-family: Roboto;
   font-weight: 700;
   margin-right: 0px;
 }
-.nova-text03 {
+.nova-text01 {
   color: #ffffff;
   font-size: 100px;
   align-self: center;
@@ -313,7 +313,7 @@
   position: absolute;
   object-fit: cover;
 }
-.nova-text04 {
+.nova-text02 {
   color: rgb(255, 255, 255);
   font-size: 100px;
   margin-top: var(--dl-space-space-tenunits);
@@ -354,7 +354,7 @@
   margin-left: 70px;
   margin-right: 70px;
 }
-.nova-text05 {
+.nova-text03 {
   color: rgb(255, 255, 255);
   font-size: 100px;
   margin-top: var(--dl-space-space-tenunits);
@@ -364,7 +364,7 @@
   margin-bottom: var(--dl-space-space-tenunits);
   text-transform: uppercase;
 }
-.nova-text06 {
+.nova-text04 {
   color: rgb(255, 255, 255);
   font-size: 40px;
   margin-top: var(--dl-space-space-tenunits);
@@ -374,7 +374,7 @@
   margin-bottom: var(--dl-space-space-tenunits);
   text-transform: uppercase;
 }
-.nova-text07 {
+.nova-text05 {
   margin-top: var(--dl-space-space-tenunits);
   text-align: center;
   margin-bottom: var(--dl-space-space-tenunits);
@@ -393,7 +393,7 @@
   padding-bottom: var(--dl-space-space-tenunits);
   justify-content: center;
 }
-.nova-text11 {
+.nova-text09 {
   top: 137px;
   left: 410px;
   color: rgb(255, 255, 255);
@@ -409,7 +409,7 @@
   align-self: center;
   object-fit: cover;
 }
-.nova-text14 {
+.nova-text12 {
   color: #ffffff;
   font-size: 2rem;
   align-self: center;
@@ -427,6 +427,11 @@
   background-color: rgb(134, 157, 238);
 }
 @media(max-width: 1600px) {
+  .nova-link {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-decoration: none;
+  }
   .nova-container06 {
     width: 100%;
     margin-left: 0px;
@@ -499,7 +504,7 @@
     width: 442px;
     height: 336px;
   }
-  .nova-text06 {
+  .nova-text04 {
     font-size: 30px;
   }
 }
@@ -622,7 +627,7 @@
     position: absolute;
     align-self: center;
   }
-  .nova-text06 {
+  .nova-text04 {
     font-size: 25px;
   }
 }
@@ -899,27 +904,27 @@
     height: 327px;
     position: absolute;
   }
-  .nova-text05 {
+  .nova-text03 {
     color: rgb(255, 255, 255);
     font-size: 100px;
     font-family: Roboto;
     font-weight: 700;
     text-transform: uppercase;
+  }
+  .nova-text04 {
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .nova-text05 {
+    font-size: 20px;
   }
   .nova-text06 {
-    color: rgb(255, 255, 255);
-    font-size: 100px;
-    font-family: Roboto;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-size: 20px;
   }
   .nova-text07 {
-    font-size: 20px;
-  }
-  .nova-text08 {
-    font-size: 20px;
-  }
-  .nova-text09 {
     font-size: 20px;
   }
   .nova-features {

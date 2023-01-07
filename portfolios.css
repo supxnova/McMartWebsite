@@ -42,11 +42,6 @@
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
-.portfolios-links-container {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-}
 .portfolios-link2 {
   color: #ffffff;
   text-decoration: none;
@@ -83,7 +78,7 @@
   width: 50px;
   object-fit: cover;
 }
-.portfolios-container1 {
+.portfolios-container01 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
@@ -100,7 +95,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.portfolios-links-container1 {
+.portfolios-links-container {
   display: flex;
   align-items: flex-start;
   margin-bottom: var(--dl-space-space-doubleunit);
@@ -162,7 +157,7 @@
   width: 24px;
   height: 24px;
 }
-.portfolios-container2 {
+.portfolios-container02 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -170,7 +165,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.portfolios-container3 {
+.portfolios-container03 {
   display: flex;
   position: relative;
   align-items: center;
@@ -183,14 +178,14 @@
   align-self: center;
   margin-top: 131px;
 }
-.portfolios-container4 {
+.portfolios-container04 {
   width: 100%;
   height: 522px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.portfolios-container5 {
+.portfolios-container05 {
   flex: 0 0 auto;
   width: 273px;
   height: auto;
@@ -215,7 +210,7 @@
   font-weight: 700;
   text-decoration: none;
 }
-.portfolios-container6 {
+.portfolios-container06 {
   flex: 0 0 auto;
   width: 273px;
   height: auto;
@@ -244,6 +239,67 @@
   margin-bottom: 0px;
   text-decoration: none;
 }
+.portfolios-container07 {
+  width: 100%;
+  height: 522px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolios-container08 {
+  flex: 0 0 auto;
+  width: 273px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  flex-direction: column;
+}
+.portfolios-navlink5 {
+  display: contents;
+}
+.portfolios-image4 {
+  width: 273px;
+  height: 289px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.portfolios-navlink6 {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 700;
+  text-decoration: none;
+}
+.portfolios-container09 {
+  flex: 0 0 auto;
+  width: 273px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  flex-direction: column;
+}
+.portfolios-navlink7 {
+  display: contents;
+}
+.portfolios-image5 {
+  width: 273px;
+  height: 289px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.portfolios-navlink8 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  margin-top: 0px;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
 .portfolios-features {
   width: 100%;
   height: 402px;
@@ -258,7 +314,7 @@
   padding-bottom: var(--dl-space-space-tenunits);
   justify-content: center;
 }
-.portfolios-text3 {
+.portfolios-text5 {
   top: 137px;
   left: 410px;
   color: rgb(255, 255, 255);
@@ -268,13 +324,13 @@
   font-family: Nunito;
   font-weight: 700;
 }
-.portfolios-image4 {
+.portfolios-image6 {
   width: 324px;
   height: 209px;
   align-self: center;
   object-fit: cover;
 }
-.portfolios-text6 {
+.portfolios-text8 {
   color: #ffffff;
   font-size: 2rem;
   align-self: center;
@@ -290,6 +346,17 @@
   font-weight: 700;
   text-decoration: none;
   background-color: rgb(134, 157, 238);
+}
+@media(max-width: 1600px) {
+  .portfolios-link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+}
+@media(max-width: 1200px) {
+  .portfolios-navbar {
+    width: 100%;
+  }
 }
 @media(max-width: 991px) {
   .portfolios-navbar {
@@ -307,16 +374,35 @@
     width: 100%;
     height: 105px;
   }
-  .portfolios-links-container {
-    display: none;
-  }
   .portfolios-text2 {
     top: 141px;
     left: 217px;
     font-size: 90px;
   }
+  .portfolios-container05 {
+    margin: auto;
+  }
+  .portfolios-image2 {
+    margin: auto;
+  }
+  .portfolios-container06 {
+    margin: auto;
+  }
   .portfolios-image3 {
-    margin-left: 46px;
+    margin: auto;
+  }
+  .portfolios-container08 {
+    margin: auto;
+  }
+  .portfolios-image4 {
+    margin: auto;
+  }
+  .portfolios-container09 {
+    margin: auto;
+    margin-left: auto;
+  }
+  .portfolios-image5 {
+    margin: auto;
   }
 }
 @media(max-width: 479px) {
@@ -330,7 +416,7 @@
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .portfolios-container3 {
+  .portfolios-container03 {
     align-self: center;
   }
   .portfolios-text2 {
@@ -338,33 +424,92 @@
     left: -13px;
     color: rgb(255, 255, 255);
     width: 441px;
-    height: 100%;
-    font-size: 70px;
+    height: 99px;
+    margin: auto;
+    font-size: 50px;
+    box-shadow: inherit;
+    text-align: center;
   }
-  .portfolios-container5 {
+  .portfolios-container04 {
+    height: 300px;
+  }
+  .portfolios-container05 {
     width: 50%;
-    height: 343px;
+    height: 350px;
+    margin: auto;
   }
   .portfolios-image2 {
-    width: 100%;
-    height: 243px;
-    margin-right: 0px;
+    width: 198px;
+    height: 192px;
+    margin: auto;
   }
   .portfolios-navlink2 {
     margin-right: 0px;
   }
-  .portfolios-container6 {
+  .portfolios-container06 {
+    width: 50%;
     height: 350px;
+    margin: auto;
+    margin-bottom: auto;
   }
   .portfolios-image3 {
-    width: 259px;
-    height: 251px;
-    margin-left: 0px;
+    width: 198px;
+    height: 192px;
+    margin: auto;
   }
   .portfolios-navlink4 {
     margin-left: 0px;
   }
-  .portfolios-text6 {
+  .portfolios-container07 {
+    height: 407px;
+    margin: auto;
+    margin-top: auto;
+    padding-top: 44px;
+  }
+  .portfolios-container08 {
+    width: 50%;
+    height: 350px;
+    margin: auto;
+    margin-bottom: auto;
+  }
+  .portfolios-image4 {
+    width: 198px;
+    height: 50%;
+    margin: auto;
+  }
+  .portfolios-navlink6 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-right: 0px;
+    text-decoration: none;
+  }
+  .portfolios-container09 {
+    width: 216px;
+    height: 350px;
+    margin: auto;
+  }
+  .portfolios-image5 {
+    width: 186px;
+    height: 50%;
+    margin: auto;
+  }
+  .portfolios-navlink8 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-left: 0px;
+    text-decoration: none;
+  }
+  .portfolios-features {
+    height: 484px;
+    margin: auto;
+    padding: 0px;
+    margin-top: auto;
+  }
+  .portfolios-text8 {
     text-align: center;
   }
 }
