@@ -1,0 +1,27 @@
+.toolbar-container {
+  width: 198px;
+  height: 148px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.toolbar-image {
+  width: 103px;
+  height: 113px;
+  margin: auto;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-bottom: auto;
+}
+.toolbar-text {
+  color: #ffffff;
+  font-size: 50px;
+  align-self: center;
+  font-weight: bold;
+}
+.toolbar-root-class-name {
+  align-self: center;
+}
