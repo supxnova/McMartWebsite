@@ -227,13 +227,14 @@
   justify-content: flex-start;
   background-color: #1f1f1f;
 }
-.home-text29 {
+.home-link {
   color: rgb(255, 255, 255);
   font-size: 40px;
   align-self: center;
   margin-top: 20px;
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .home-container10 {
   width: 800px;
@@ -255,7 +256,7 @@
 }
 .home-container12 {
   width: 800px;
-  height: 508px;
+  height: 100%;
   display: flex;
   align-self: center;
   margin-top: 12px;
@@ -264,7 +265,7 @@
 }
 .home-div {
   width: 804px;
-  height: 531px;
+  height: 599px;
   align-self: center;
 }
 @media(max-width: 991px) {
